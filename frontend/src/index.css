@@ -1,0 +1,56 @@
+body {
+	font-family: "Segoe UI", Roboto, sans-serif;
+	margin: 0;
+	background: #f3f6fc;
+}
+
+/* Table */
+table {
+	width: 100%;
+	border-collapse: collapse;
+	background: white;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+thead {
+	background: #4c6ef5;
+	color: white;
+	font-size: 14px;
+}
+
+td,
+th {
+	padding: 12px;
+	border-bottom: 1px solid #e0e4f0;
+}
+
+tbody tr:nth-child(even) {
+	background: #eef2ff;
+}
+
+tbody tr:hover {
+	background: #dbe4ff;
+}
+
+/* Inputs */
+input,
+select {
+	border: 1px solid #bbb;
+	border-radius: 8px;
+	padding: 8px;
+}
+
+/* Pagination Buttons */
+button {
+	background: #4c6ef5;
+	color: white;
+	border: none;
+	padding: 6px 14px;
+	border-radius: 6px;
+	cursor: pointer;
+}
+button:disabled {
+	background: #aab3d1;
+	cursor: not-allowed;
+}

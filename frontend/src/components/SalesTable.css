@@ -1,0 +1,47 @@
+.table-container {
+	background: #f1f1f4; /* Same as sidebar */
+	border-radius: 10px;
+	padding: 10px;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+	overflow-x: auto;
+}
+
+.sales-table {
+	width: 100%;
+	border-collapse: collapse;
+	font-size: 14px;
+}
+
+.sales-table thead {
+	background: #223056;
+	color: white;
+}
+
+.sales-table th,
+.sales-table td {
+	padding: 10px;
+	text-align: left;
+}
+
+.sales-table tbody tr:nth-child(even) {
+	background: #eef2ff;
+}
+
+.sales-table tbody tr:hover {
+	background: #dce3ff;
+	cursor: pointer;
+}
+.no-results {
+	text-align: center;
+	padding: 20px;
+	font-size: 18px;
+	color: #555;
+	background: #ffffff;
+	border-radius: 8px;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+	margin-top: 20px;
+}
+.table-container table thead {
+	background: #223056; /* same color as sidebar */
+	color: white;
+}
