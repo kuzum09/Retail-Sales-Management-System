@@ -4,6 +4,17 @@ A full-stack application for Retail Sales Analysis with powerful
 Search ▸ Multi-Filtering ▸ Sorting ▸ Pagination  
 Built as the TruEstate SDE Intern Assignment (6 Months + PPO)
 
+
+---
+
+## 🌐 Live Demo
+
+| Service | URL |
+|--------|-----|
+| Frontend | https://retail-sales-frontend.vercel.app/ |
+| Backend API | https://retail-sales-management-system-7vev.onrender.com/api/sales |
+
+
 ---
 
 ## 🚀 Tech Stack
@@ -203,3 +214,4 @@ IIIT Naya Raipur
 TruEstate SDE Intern Assignment
 
 ---
+
